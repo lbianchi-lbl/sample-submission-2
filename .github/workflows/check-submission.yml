@@ -9,5 +9,5 @@ jobs:
     with:
       repository: ${{ github.repository }}
       ref: ${{ github.sha }}
-      reproducible-document: 01-stylo2gg.qmd
+      build-artifacts: 01-stylo2gg.html
       binder-cache-branch: binder-cache
